@@ -1,0 +1,599 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3.3rem;
+  color: rgb(199, 127, 67);
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: rgb(199, 127, 67);
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: rgb(199, 127, 67);
+}
+
+h4 {
+  font-weight: 100;
+  font-size: 2.2rem;
+  color: rgb(199, 127, 67);
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.btn-config {
+  background-color: rgb(199, 127, 67);
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+.btn-config:hover {
+  transform: scale(1.1);
+  background-color: rgb(196, 93, 9);
+  color: black;
+}
+
+.text-default {
+  color: rgb(199, 127, 67);
+  font-size: 1.5rem;
+}
+
+.banner-config {
+  object-fit: cover;
+  width: 100%;
+  height: 550px;
+}
+
+.card-config, .card-config-promo-hair, .card-config-promo-cejas, .card-config-promo-nails, .card-config-promo-beauty {
+  background-color: black;
+  border: solid 2px rgb(199, 127, 67);
+  color: rgb(199, 127, 67);
+  margin: 10px;
+  padding: 10px;
+  height: 400px;
+  border-radius: 4px;
+}
+.card-config img, .card-config-promo-hair img, .card-config-promo-cejas img, .card-config-promo-nails img, .card-config-promo-beauty img {
+  height: 300px;
+  width: 100px;
+}
+
+.brands-container {
+  background-color: rgb(252, 245, 245);
+  width: 100fw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.brands-container img {
+  height: auto;
+  width: 128px;
+  margin: 10px;
+}
+
+.footer-container {
+  width: 100fw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container a {
+  text-decoration: none;
+}
+.footer-container div svg {
+  margin: 10px;
+  height: auto;
+  width: 20px;
+  fill: rgb(199, 127, 67);
+}
+.footer-container p {
+  color: rgb(199, 127, 67);
+  margin: 5px;
+}
+
+.servicios-grid {
+  grid-template-rows: repeat(4, auto);
+  color: rgb(199, 127, 67);
+  grid-template-areas: "hair" "nails" "beauty" "cejas";
+}
+.servicios-grid .servicios-hair {
+  grid-area: hair;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+  border: solid 2px rgb(199, 127, 67);
+  border-radius: 4px;
+}
+.servicios-grid .servicios-hair img {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.servicios-grid .servicios-hair p {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+.servicios-grid .servicios-nails {
+  grid-area: nails;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+  border: solid 2px rgb(199, 127, 67);
+  border-radius: 4px;
+}
+.servicios-grid .servicios-nails img {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.servicios-grid .servicios-nails p {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+.servicios-grid .servicios-beauty {
+  grid-area: beauty;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+  border: solid 2px rgb(199, 127, 67);
+  border-radius: 4px;
+}
+.servicios-grid .servicios-beauty img {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.servicios-grid .servicios-beauty p {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+.servicios-grid .servicios-cejas {
+  grid-area: cejas;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+  border: solid 2px rgb(199, 127, 67);
+  border-radius: 4px;
+}
+.servicios-grid .servicios-cejas img {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.servicios-grid .servicios-cejas p {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+}
+
+.card-config-promo-hair, .card-config-promo-cejas, .card-config-promo-nails, .card-config-promo-beauty {
+  height: auto;
+  border: solid 2px rgb(199, 127, 67);
+}
+.card-config-promo-hair img, .card-config-promo-cejas img, .card-config-promo-nails img, .card-config-promo-beauty img {
+  height: 100%;
+  width: 100%;
+}
+.card-config-promo-hair p, .card-config-promo-cejas p, .card-config-promo-nails p, .card-config-promo-beauty p {
+  font-size: 1.5rem;
+}
+
+.nav-container {
+  background-color: rgb(252, 245, 245);
+}
+.nav-container div {
+  width: 100fw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-container img {
+  transition: all 0.3s;
+}
+.nav-container img:hover {
+  transform: scale(1.1);
+}
+.nav-container ul {
+  width: 100%;
+  list-style: none;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-container ul li:hover {
+  transform: scale(1.1);
+}
+.nav-container ul li a {
+  color: rgb(199, 127, 67);
+  text-decoration: none;
+  margin: 20px;
+}
+.nav-container ul li a:hover {
+  color: rgb(196, 93, 9);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(199, 127, 67)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.carousel-inner div img {
+  object-fit: cover;
+  width: auto;
+  height: 550px;
+}
+
+.carousel-item {
+  transition: transform 2.6s ease-in-out;
+}
+
+.carousel-fade .active .carousel-item-start {
+  transition: opacity 0s 2.6s;
+}
+.carousel-fade .active .carousel-item-end {
+  transition: opacity 0s 2.6s;
+}
+
+#main-grid, .servicios-grid {
+  margin: 20px;
+  gap: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas: "description" "hair" "nails" "beauty" "cejas";
+}
+#main-grid .description-grid, .servicios-grid .description-grid {
+  grid-area: description;
+  background-color: rgb(252, 245, 245);
+  text-align: center;
+  margin-top: -500px;
+  padding: 30px;
+  line-height: 4rem;
+  z-index: 2;
+  border-radius: 4px;
+}
+#main-grid .description-grid h1, .servicios-grid .description-grid h1 {
+  font-weight: 600;
+  font-size: 3.3rem;
+  color: black;
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+}
+#main-grid .description-grid h2, .servicios-grid .description-grid h2 {
+  font-weight: 100;
+  font-size: 2.2rem;
+  letter-spacing: 0.5px;
+  color: rgb(199, 127, 67);
+}
+#main-grid .description-grid h3, .servicios-grid .description-grid h3 {
+  font-size: 1.1rem;
+  letter-spacing: 0, 8px;
+  color: rgb(199, 127, 67);
+}
+#main-grid .description-grid h4, .servicios-grid .description-grid h4 {
+  font-size: 1.1rem;
+  letter-spacing: 0, 8px;
+  color: rgb(199, 127, 67);
+  margin-top: -4rem;
+  margin-bottom: 6rem;
+}
+#main-grid .description-grid p, .servicios-grid .description-grid p {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#main-grid .hair-grid, .servicios-grid .hair-grid {
+  grid-area: hair;
+}
+#main-grid .hair-grid img, .servicios-grid .hair-grid img {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#main-grid .nails-grid, .servicios-grid .nails-grid {
+  grid-area: nails;
+}
+#main-grid .nails-grid img, .servicios-grid .nails-grid img {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#main-grid .beauty-grid, .servicios-grid .beauty-grid {
+  grid-area: beauty;
+}
+#main-grid .beauty-grid img, .servicios-grid .beauty-grid img {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#main-grid .cejas-grid, .servicios-grid .cejas-grid {
+  grid-area: cejas;
+}
+#main-grid .cejas-grid img, .servicios-grid .cejas-grid img {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#servicios-grid {
+  display: grid;
+}
+
+@media (width > 576px) {
+  .header-container nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .brands-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #main-grid, .servicios-grid {
+    margin-right: 60px;
+    margin-left: 60px;
+    row-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "description description" "hair nails" "beauty cejas";
+  }
+  .servicios-grid {
+    margin-right: 100px;
+    margin-left: 100px;
+    row-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "hair" "nails" "beauty" "cejas";
+  }
+}
+@media (width > 910px) {
+  .servicios-grid {
+    margin-right: 70px;
+    margin-left: 70px;
+    row-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "hair" "nails" "beauty" "cejas";
+  }
+  .servicios-grid .servicios-hair {
+    display: flex;
+    flex-direction: row;
+  }
+  .servicios-grid .servicios-hair img {
+    min-width: 450px;
+    height: auto;
+  }
+  .servicios-grid .servicios-nails {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .servicios-grid .servicios-nails img {
+    min-width: 450px;
+    height: auto;
+  }
+  .servicios-grid .servicios-beauty {
+    display: flex;
+    flex-direction: row;
+  }
+  .servicios-grid .servicios-beauty img {
+    min-width: 450px;
+    height: auto;
+  }
+  .servicios-grid .servicios-cejas {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .servicios-grid .servicios-cejas img {
+    min-width: 450px;
+    height: auto;
+  }
+}
+@media (width > 991px) {
+  .card-config-promo-hair, .card-config-promo-beauty, .card-config-promo-nails, .card-config-promo-cejas {
+    animation: up-down 3s;
+  }
+  .card-config-promo-nails {
+    animation: up-down 3s;
+  }
+  .card-config-promo-beauty {
+    margin-top: 180px;
+    animation: down-up 3s;
+  }
+  .card-config-promo-cejas {
+    margin-top: 180px;
+    animation: down-up 3s;
+  }
+}
+@media (width > 1200px) {
+  #main-grid, .servicios-grid {
+    margin-right: 70px;
+    margin-left: 70px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "description hair nails" "description beauty cejas";
+  }
+  #main-grid .description-grid, .servicios-grid .description-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #main-grid h1, .servicios-grid h1 {
+    font-weight: 400;
+    font-size: 3.3rem;
+  }
+  #main-grid h2, .servicios-grid h2 {
+    font-weight: 100;
+    font-size: 2.2rem;
+    letter-spacing: 0.5px;
+    color: rgb(199, 127, 67);
+  }
+  #main-grid h3, .servicios-grid h3 {
+    font-size: 1.4rem;
+    letter-spacing: 0, 8px;
+    color: rgb(199, 127, 67);
+  }
+  #main-grid p, .servicios-grid p {
+    font-size: 1.5rem;
+  }
+  .servicios-grid {
+    margin-right: 0px;
+    margin-left: 0px;
+    row-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "hair" "nails" "beauty" "cejas";
+  }
+  .servicios-grid .servicios-hair {
+    animation: go-back 3s;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 80px;
+  }
+  .servicios-grid .servicios-nails {
+    animation: back-go 3s;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 80px;
+    margin-right: 20px;
+  }
+  .servicios-grid .servicios-beauty {
+    animation: go-back 3s;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 80px;
+  }
+  .servicios-grid .servicios-cejas {
+    animation: back-go 3s;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 80px;
+    margin-right: 20px;
+  }
+  .footer-container {
+    width: 100fw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-config-promo-beauty {
+    margin-top: 180px;
+  }
+  .card-config-promo-cejas {
+    margin-top: 180px;
+  }
+}
+@media (width > 1700px) {
+  #main-grid, .servicios-grid {
+    margin-right: 300px;
+    margin-left: 300px;
+  }
+  .servicios-grid {
+    margin-right: 0px;
+    margin-left: 0px;
+    row-gap: 20px;
+  }
+  .servicios-grid .servicios-hair {
+    margin-left: 80px;
+    margin-right: 250px;
+  }
+  .servicios-grid .servicios-nails {
+    margin-left: 250px;
+    margin-right: 80px;
+  }
+  .servicios-grid .servicios-beauty {
+    margin-left: 80px;
+    margin-right: 250px;
+  }
+  .servicios-grid .servicios-cejas {
+    margin-left: 250px;
+    margin-right: 80px;
+  }
+}
+.text-area-config {
+  height: 20rem;
+}
+
+main iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes go-back {
+  from {
+    transform: translateX(600px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes back-go {
+  from {
+    transform: translateX(-600px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes up-down {
+  from {
+    transform: translatey(250px);
+  }
+  to {
+    transform: translatey(0);
+  }
+}
+@keyframes down-up {
+  from {
+    transform: translatey(-250px);
+  }
+  to {
+    transform: translatey(0);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
