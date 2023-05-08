@@ -38,8 +38,8 @@
         "beauty"
         "cejas";
     }
-
 }
+
 @media (width > 910px){
     .servicios-grid{
         margin-right: 70px;
@@ -83,11 +83,33 @@
                 height: auto;                
             }
         }
-    } 
+    }
+    .error-404{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-size: 2.6rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.6rem;            
+        }
+        a{
+            font-size: 1.8rem;
+        }
+        li:hover{
+            transform: scale(1.1);
+            & a{
+                color: $hover-color;
+            }
+        }
+    }   
 }
 
 @media (width > 991px){
-
     .card-config-promo-hair{
         animation: up-down 3s;
     }
