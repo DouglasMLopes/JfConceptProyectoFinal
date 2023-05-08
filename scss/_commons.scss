@@ -38,6 +38,19 @@ p{
     font-size: $font-xsm;
 }
 
+.title-description{
+    padding-top: 30px;
+    color: $text-secundary-color;
+    font-size: $font-xsm;
+    letter-spacing: 1.5px;
+}
+
+.body-description{
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;    
+}
+
 .btn-config{
     background-color: $btn-color;
     border-radius: $border-radius;
@@ -91,11 +104,11 @@ p{
 
 .footer-container{
     width: 100fw;
-    height: auto;
+    height: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: center;    
     a{
         text-decoration: none;
     }
@@ -103,12 +116,13 @@ p{
         svg{
             margin: 10px;
             height: auto;
-            width: 20px;
+            width: 25px;
             fill: $text-secundary-color;
         }
     }
     p{
         color: $text-secundary-color;
         margin: 5px;
+        text-align: center;
     }
 }

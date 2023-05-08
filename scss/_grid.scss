@@ -13,10 +13,12 @@
     "cejas";
         .description-grid{
             grid-area: description;
+            height: auto;
+            width: 100fw;
             background-color: rgb(252, 245, 245);
             text-align: center;
             margin-top: -500px;
-            padding: 30px;
+            padding: 10px 60px;
             line-height: 4rem;
             z-index: 2;
             border-radius: 4px;
@@ -24,32 +26,15 @@
                     font-weight: $fw-bold;
                     font-size: $font-lg; 
                     color: $text-primary-color;
-                    margin-top: 2rem;
-                    margin-bottom: 6rem;
+                    padding: 10px 0px;
                 }
                     h2{
                         font-weight: $fw-light;
-                        font-size: $font-sm;
+                        font-size: 1.8rem;
                         letter-spacing: 0.5px;
-                        color: $text-secundary-color; 
-                    }
-                        h3{
-                            font-size: $font-xsm;
-                            letter-spacing: 0,8px;
-                            color: $text-secundary-color;
-                        }
-                            h4{
-                                font-size: $font-xsm;
-                                letter-spacing: 0,8px;
-                                color: $text-secundary-color;
-                                margin-top: -4rem;
-                                margin-bottom: 6rem;
-                            }
-                                p{
-                                    font-size: 1.6rem;
-                                    margin-top: 2rem;
-                                    margin-bottom: 2rem;
-                                }
+                        color: $text-secundary-color;
+                        padding: 10px 0px; 
+                    }                        
         }
         .hair-grid{
             grid-area: hair;

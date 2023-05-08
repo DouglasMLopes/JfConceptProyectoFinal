@@ -39,6 +39,19 @@ p {
   font-size: 1.1rem;
 }
 
+.title-description {
+  padding-top: 30px;
+  color: rgb(199, 127, 67);
+  font-size: 1.1rem;
+  letter-spacing: 1.5px;
+}
+
+.body-description {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .btn-config {
   background-color: rgb(199, 127, 67);
   border-radius: 4px;
@@ -92,10 +105,10 @@ p {
 
 .footer-container {
   width: 100fw;
-  height: auto;
+  height: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .footer-container a {
@@ -104,12 +117,13 @@ p {
 .footer-container div svg {
   margin: 10px;
   height: auto;
-  width: 20px;
+  width: 25px;
   fill: rgb(199, 127, 67);
 }
 .footer-container p {
   color: rgb(199, 127, 67);
   margin: 5px;
+  text-align: center;
 }
 
 .servicios-grid {
@@ -228,10 +242,9 @@ p {
   transform: scale(1.1);
 }
 .nav-container ul {
-  width: 100%;
+  width: 100fw;
   list-style: none;
   font-size: 2.2rem;
-  line-height: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -285,10 +298,12 @@ p {
 }
 #main-grid .description-grid, .servicios-grid .description-grid {
   grid-area: description;
+  height: auto;
+  width: 100fw;
   background-color: rgb(252, 245, 245);
   text-align: center;
   margin-top: -500px;
-  padding: 30px;
+  padding: 10px 60px;
   line-height: 4rem;
   z-index: 2;
   border-radius: 4px;
@@ -297,31 +312,14 @@ p {
   font-weight: 600;
   font-size: 3.3rem;
   color: black;
-  margin-top: 2rem;
-  margin-bottom: 6rem;
+  padding: 10px 0px;
 }
 #main-grid .description-grid h2, .servicios-grid .description-grid h2 {
   font-weight: 100;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   letter-spacing: 0.5px;
   color: rgb(199, 127, 67);
-}
-#main-grid .description-grid h3, .servicios-grid .description-grid h3 {
-  font-size: 1.1rem;
-  letter-spacing: 0, 8px;
-  color: rgb(199, 127, 67);
-}
-#main-grid .description-grid h4, .servicios-grid .description-grid h4 {
-  font-size: 1.1rem;
-  letter-spacing: 0, 8px;
-  color: rgb(199, 127, 67);
-  margin-top: -4rem;
-  margin-bottom: 6rem;
-}
-#main-grid .description-grid p, .servicios-grid .description-grid p {
-  font-size: 1.6rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  padding: 10px 0px;
 }
 #main-grid .hair-grid, .servicios-grid .hair-grid {
   grid-area: hair;
@@ -522,24 +520,6 @@ p {
     justify-content: center;
     align-items: center;
   }
-  #main-grid h1, .servicios-grid h1 {
-    font-weight: 400;
-    font-size: 3.3rem;
-  }
-  #main-grid h2, .servicios-grid h2 {
-    font-weight: 100;
-    font-size: 2.2rem;
-    letter-spacing: 0.5px;
-    color: rgb(199, 127, 67);
-  }
-  #main-grid h3, .servicios-grid h3 {
-    font-size: 1.4rem;
-    letter-spacing: 0, 8px;
-    color: rgb(199, 127, 67);
-  }
-  #main-grid p, .servicios-grid p {
-    font-size: 1.5rem;
-  }
   .servicios-grid {
     margin-right: 0px;
     margin-left: 0px;
@@ -577,7 +557,7 @@ p {
   }
   .footer-container {
     width: 100fw;
-    height: auto;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -590,10 +570,18 @@ p {
     margin-top: 180px;
   }
 }
-@media (width > 1700px) {
+@media (width > 1400px) {
+  #main-grid .description-grid h1, .servicios-grid .description-grid h1 {
+    padding: 30px 0px;
+  }
+}
+@media (width > 1600px) {
   #main-grid, .servicios-grid {
     margin-right: 300px;
     margin-left: 300px;
+  }
+  #main-grid .description-grid h1, .servicios-grid .description-grid h1 {
+    padding: 40px 0px;
   }
   .servicios-grid {
     margin-right: 0px;

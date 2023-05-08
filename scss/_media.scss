@@ -141,26 +141,8 @@
             .description-grid{
                 display: flex;
                 justify-content: center;
-                align-items: center;
-            }
-                h1{
-                    font-weight: $fw-regular;
-                    font-size: $font-lg;
-                }
-                    h2{
-                        font-weight: $fw-light;
-                        font-size: $font-sm;
-                        letter-spacing: 0.5px;
-                        color: $text-secundary-color;
-                    }
-                        h3{
-                            font-size: 1.4rem;
-                            letter-spacing: 0,8px;
-                            color: $text-secundary-color;
-                        }
-                            p{
-                                font-size: 1.5rem;
-                            }
+                align-items: center;                
+            }                
     }
 
     .servicios-grid{
@@ -205,7 +187,7 @@
 
     .footer-container{
         width: 100fw;
-        height: auto;
+        height: 100px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -221,10 +203,21 @@
     }
 }
 
-@media (width > 1700px){
+@media (width > 1400px){
+    #main-grid{
+        .description-grid h1{
+            padding: 30px 0px;
+        }
+    }
+}
+
+@media (width > 1600px){
     #main-grid{
         margin-right: 300px;
         margin-left: 300px;
+        .description-grid h1{
+            padding: 40px 0px;
+        }
     }
     .servicios-grid{
         margin-right: 0px;
