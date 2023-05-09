@@ -557,7 +557,7 @@ p {
   }
   .footer-container {
     width: 100fw;
-    height: 100px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
