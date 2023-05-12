@@ -574,7 +574,7 @@ p {
 }
 @media (width > 1400px) {
   #main-grid .description-grid, .servicios-grid .description-grid {
-    line-height: 3.9rem;
+    line-height: 3.8rem;
   }
   #main-grid .description-grid h1, .servicios-grid .description-grid h1 {
     padding: 30px 0px;
