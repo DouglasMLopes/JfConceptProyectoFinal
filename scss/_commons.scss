@@ -69,8 +69,10 @@ p{
 
 .banner-config{
     object-fit:cover;
-    width: 100%;
-    height: 550px;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border: 0;
 }
 
 .card-config{
