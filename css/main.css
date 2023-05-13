@@ -645,7 +645,7 @@ main iframe {
 }
 @keyframes up-down {
   from {
-    transform: translatey(250px);
+    transform: translatey(150px);
   }
   to {
     transform: translatey(0);
@@ -653,7 +653,7 @@ main iframe {
 }
 @keyframes down-up {
   from {
-    transform: translatey(-250px);
+    transform: translatey(-150px);
   }
   to {
     transform: translatey(0);
