@@ -69,11 +69,10 @@ p {
 }
 
 .banner-config {
-  object-fit: cover;
   max-width: 100%;
   height: auto;
+  min-height: 150px;
   box-sizing: border-box;
-  border: 0;
 }
 
 .card-config, .card-config-promo-hair, .card-config-promo-cejas, .card-config-promo-nails, .card-config-promo-beauty {
@@ -88,6 +87,7 @@ p {
 .card-config img, .card-config-promo-hair img, .card-config-promo-cejas img, .card-config-promo-nails img, .card-config-promo-beauty img {
   height: 300px;
   width: 100px;
+  object-fit: cover;
 }
 
 .brands-container {
@@ -130,6 +130,8 @@ p {
 
 .servicios-grid {
   grid-template-rows: repeat(4, auto);
+  margin-top: 20px;
+  margin-bottom: 5px;
   color: rgb(199, 127, 67);
   grid-template-areas: "hair" "nails" "beauty" "cejas";
 }
@@ -436,6 +438,7 @@ p {
     margin-right: 100px;
     margin-left: 100px;
     margin-top: 20px;
+    margin-bottom: 20px;
     gap: 20px;
     grid-template-columns: 1fr;
     grid-template-areas: "hair" "nails" "beauty" "cejas";

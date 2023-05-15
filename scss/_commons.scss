@@ -68,11 +68,12 @@ p{
 }
 
 .banner-config{
-    object-fit:cover;
+  
     max-width: 100%;
     height: auto;
+    min-height: 150px;
     box-sizing: border-box;
-    border: 0;
+    
 }
 
 .card-config{
@@ -85,7 +86,8 @@ p{
     border-radius: 4px;
     img{
         height: 300px;
-        width: 100px; 
+        width: 100px;
+        object-fit: cover; 
     }
 }
 
