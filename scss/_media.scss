@@ -55,33 +55,42 @@
         .servicios-hair{
             display: flex;
             flex-direction: row;
-            img{
-                min-width: 450px;
-                height: auto;                
+            a{
+                img{
+                    min-width: 450px;
+                    height: auto;                
+                }
             }
+            
         }
         .servicios-nails{
             display: flex;
             flex-direction: row-reverse;
-            img{
-                min-width: 450px;
-                height: auto;                
+            a{
+                img{
+                    min-width: 450px;
+                    height: auto;                
+                }
             }
         }
         .servicios-beauty{
             display: flex;
             flex-direction: row;
-            img{
-                min-width: 450px;
-                height: auto;                
+            a{
+                img{
+                    min-width: 450px;
+                    height: auto;                
+                }
             }
         }
         .servicios-cejas{
             display: flex;
             flex-direction: row-reverse;
-            img{
-                min-width: 450px;
-                height: auto;                
+            a{
+                img{
+                    min-width: 450px;
+                    height: auto;                
+                }
             }
         }
     }

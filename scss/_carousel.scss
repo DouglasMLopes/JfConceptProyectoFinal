@@ -1,12 +1,15 @@
-.carousel-inner{
-    div{
-        img{
-            object-fit: cover;
-            width: auto;
-            height: 550px;
-        }
-    }
+.carousel-img-index{
+    object-fit: cover;
+    width: auto;
+    height: 550px;
 }
+
+.carousel-img-servicios{
+    object-fit: cover;
+    max-width: 360px;
+    max-height: auto;
+}
+
 
 .carousel-item{
     transition: transform 2.6s ease-in-out; 
@@ -20,5 +23,20 @@
         .carousel-item-end{
             transition: opacity 0s 2.6s;
         }
+    }
+}
+
+.carousel-indicators{
+    .active{
+        background-color: $bg-tertiary-color;
+    }
+} 
+
+.carousel-control-prev,
+.carousel-control-next{
+    svg{
+        fill: $text-secundary-color;
+        width: 30px;
+        height: 30px;
     }
 }

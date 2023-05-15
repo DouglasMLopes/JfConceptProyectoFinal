@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JF Concept - Te ayudamos a ser tu mejor versión</title>
+    <title>JF Concept - Los mejores servicios con los mejores profesionales</title>
     <meta name="description" content="¡La mejor peluqueria del Brasil!">
     <meta name="author" content="Douglas Maciel Lopes">
-    <meta name="keyword" content="Hair, Nails, Beauty, Cejas"/>
+    <meta name="keyword" content="Hair, Pelos, Cabelos, Nails, Uñas, Unhas, Beauty, Brows, Sobrancelhas, Cejas"/>
     <meta name="copyright" content="JF Concept 2023"/>
     <meta name="robots" content="index,follow">    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -48,183 +48,211 @@
     </header>
 
     <main>
-        <div class="servicios-grid">
-            <section class="servicios-hair">
-                <!-- <div> -->
-                    
-                    <!-- Carrossel clicável com expançao da imagem -->
-
+      <div class="servicios-grid">
+        <section>
+          <div class="servicios-hair">
+            <a class="button-modal" href="#popup"><img src="../img/arts/hair.jpg" alt="Foto de un peinado en pelo largo y modelado"></a>
+            <div>
+              <h1>Hair</h1>
+              <p>Deja que tu pelo hable por ti, pues esta peluqueria es una obra de arte y contamos con los mejores peluqueros de la región. ¡Deslumbra tu energía con pelos que transmitan tu personalidad!</p>
+            </div>
+          </div>
+          <div class="container-modal">            
+            <div class="popup" id="popup">
+              <div class="popup-inner">
+                <div class="popup-photo">                          
+                  <div class="box-modal">                          
                     <div id="carouselExampleIndicators" class="carousel slide">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>    
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="../img/works/hair/hair1.JPG" class="d-block w-100 carousel-img-servicios" alt="Pelo con tinte rubio y modelado">
+                        </div>    
+                        <div class="carousel-item">
+                          <img src="../img/works/hair/hair2.JPG" class="d-block w-100 carousel-img-servicios" alt="Pelo con tinte rubio claro y modelado">
+                        </div>    
+                        <div class="carousel-item">
+                          <img src="../img/works/hair/hair3.jpg" class="d-block w-100 carousel-img-servicios" alt="Pelo con tinte castaño claro y modelado">
                         </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-
-                            <!-- Inicia Modal -->
-                            <div class="container-modal">
-                              <a class="button-modal" href="#popup"><img src="../img/arts/hair.jpg" alt=""></a>
-                                <div class="popup" id="popup">
-                                  <div class="popup-inner">
-                                    <div class="popup-photo">
-                                      <img src="../img/arts/hair.jpg" alt="">
-                                    </div>
-                                      <a class="popup-close" href="#cerrar">X</a>
-                                  </div>
-                                </div>
-                            </div>                             
-                            <!--Fim do Modal  -->
-
-                          </div>
-
-                          <div class="carousel-item">
-                            <a href="#" target="_blank">
-                                <img src="../img/arts/hair.jpg" class="d-block w-100" alt="...">
-                            </a>
-                          </div>
-                          <div class="carousel-item">
-                            <a href="#" target="_blank">
-                                <img src="../img/arts/hair.jpg" class="d-block w-100" alt="...">
-                            </a>
-                          </div>
-                        </div>
+                      </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                          </svg>
                           <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                          </svg>
                           <span class="visually-hidden">Next</span>
                         </button>
-                      </div>
-
-                    <!-- Fim do Carrossel -->
-                    
-                <!-- </div> -->
-                <div>
-                    <h1>Hair</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam hic fugiat dignissimos expedita in, sed inventore maxime rerum necessitatibus perspiciatis enim odit repellendus sequi repudiandae beatae distinctio corporis laborum?</p>
+                    </div>
+                  </div>
                 </div>
-            </section>
+                  <a class="popup-close" href="#cerrar">X</a>
+              </div>
+            </div>
+          </div>          
+        </section>
 
-            <section class="servicios-nails">
-                <!-- <div> -->
-
-                    <div id="carouselExampleIndicators2" class="carousel slide">
+          <section>
+            <div class="servicios-nails">
+              <a class="button-modal" href="#popup2"><img src="../img/arts/nails.jpg" alt="Foto de uña hecha de color rosa"></a>
+              <div>
+                <h1>Nails</h1>
+                <p>¡Que ue ningún momento especial te agarre sin las uñas perfectas! Trabajamos con todo tipo de uñas. Larga o corta, consigue el mejor manicure, pues nada puede ir mal cuando tus uñas se ven bien.</p>
+              </div>
+            </div>
+            <div class="container-modal">            
+              <div class="popup" id="popup2">
+                <div class="popup-inner">
+                  <div class="popup-photo">                          
+                    <div class="box-modal">                          
+                      <div id="carouselExampleIndicators2" class="carousel slide">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                           <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
                           <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
+                        </div>    
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="../img/arts/nails.jpg" class="d-block w-100" alt="...">
-                          </div>
+                            <img src="../img/works/nails/nails1.jpg" class="d-block w-100 carousel-img-servicios" alt="Foto de uña verde con dibujo de planta">
+                          </div>    
                           <div class="carousel-item">
-                            <img src="../img/arts/nails.jpg" class="d-block w-100" alt="...">
-                          </div>
+                            <img src="../img/works/nails/nails2.jpg" class="d-block w-100 carousel-img-servicios" alt="Foto de celebración a Navidad">
+                          </div>    
                           <div class="carousel-item">
-                            <img src="../img/arts/nails.jpg" class="d-block w-100" alt="...">
+                            <img src="../img/works/nails/nails3.jpg" class="d-block w-100 carousel-img-servicios" alt="Foto de uña roja">
                           </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                            </svg>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                            <span class="visually-hidden">Next</span>
+                          </button>
                       </div>
-
-                    <!-- <img src="../img/arts/nails.jpg" alt="Foto de las Unas"> -->
-                <!-- </div> -->
-                <div>
-                    <h1>Nails</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam hic fugiat dignissimos expedita in, sed inventore maxime rerum necessitatibus perspiciatis enim odit repellendus sequi repudiandae beatae distinctio corporis laborum?</p>
+                    </div>
+                  </div>
+                    <a class="popup-close" href="#cerrar">X</a>
                 </div>
-            </section>
+              </div>
+            </div>
+        </section>
 
-            <section class="servicios-beauty">
-                <!-- <div> -->
-
+        <section>
+          <div class="servicios-beauty">
+            <a class="button-modal" href="#popup3"><img src="../img/arts/beauty.jpg" alt="Foto de servicios de peeling"></a>
+            <div>
+              <h1>Beauty</h1>
+              <p>La vida no es perfecta, pero tu piel puede serlo. ¡Cuida bien de tu cuerpo; es el único lugar donde tienes que vivir! Dicen que la felicidad no se puede comprar, pero puedes venir a vernos.</p>
+            </div>
+          </div>
+          <div class="container-modal">            
+            <div class="popup" id="popup3">
+              <div class="popup-inner">
+                <div class="popup-photo">                          
+                  <div class="box-modal">                          
                     <div id="carouselExampleIndicators3" class="carousel slide">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>    
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="../img/works/beauty/beauty1.jpg" class="d-block w-100 carousel-img-servicios" alt="Foto de servicio de aplicación de ácido en la cara">
+                        </div>    
+                        <div class="carousel-item">
+                          <img src="../img/works/beauty/beauty2.jpg" class="d-block w-100 carousel-img-servicios" alt="Foto de servicio de aplicación de ácido en la cara">
+                        </div>    
+                        <div class="carousel-item">
+                          <img src="../img/works/beauty/beauty3.jpg" class="d-block w-100 carousel-img-servicios" alt="Foto de limpieza de piel">
                         </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="../img/arts/beauty.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="../img/arts/beauty.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="../img/arts/beauty.jpg" class="d-block w-100" alt="...">
-                          </div>
-                        </div>
+                      </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                          </svg>
                           <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                          </svg>
                           <span class="visually-hidden">Next</span>
                         </button>
-                      </div>
-
-                    <!-- <img src="../img/arts/beauty.jpg" alt="Foto del Maquillaje">
-                </div> -->
-
-                <div>
-                    <h1>Beauty</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam hic fugiat dignissimos expedita in, sed inventore maxime rerum necessitatibus perspiciatis enim odit repellendus sequi repudiandae beatae distinctio corporis laborum?</p>
+                    </div>
+                  </div>
                 </div>
-            </section>
+                  <a class="popup-close" href="#cerrar">X</a>
+              </div>
+            </div>
+          </div>
+      </section>
 
-            <section class="servicios-cejas">
-                <!-- <div> -->
-
-                    <div id="carouselExampleIndicators4" class="carousel slide">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="../img/arts/eyebrows.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="../img/arts/eyebrows.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="../img/arts/eyebrows.jpg" class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
-
-
-                    <!-- <img src="../img/arts/eyebrows.jpg" alt="Foto de las Cejas">
-                </div> -->
-                <div>
-                    <h1>Cejas</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam hic fugiat dignissimos expedita in, sed inventore maxime rerum necessitatibus perspiciatis enim odit repellendus sequi repudiandae beatae distinctio corporis laborum?</p>
-                </div>
-            </section>
+      <section>
+        <div class="servicios-cejas">
+          <a class="button-modal" href="#popup4"><img src="../img/arts/eyebrows.jpg" alt="Foto de servicios de cejas"></a>
+          <div>
+            <h1>Brows</h1>
+            <p>Las cejas son una de las características más distintivas del rostro de una persona, tienen el poder de cambiar por completo tu aspecto. Ya sea que tengas cejas pobladas, finas, gruesas, cortas, largas, arqueadas, rectas, ellas no solo son el marco de tus ojos, los protegen, revelan tus emociones, resaltan tu rostro y potencian la mirada.</p>
+          </div>
         </div>
+        <div class="container-modal">            
+          <div class="popup" id="popup4">
+            <div class="popup-inner">
+              <div class="popup-photo">                          
+                <div class="box-modal">                          
+                  <div id="carouselExampleIndicators4" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>    
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../img/works/brows/brows1.jpg" class="d-block w-100 carousel-img-servicios" alt="Foto de design de cejas">
+                      </div>    
+                      <div class="carousel-item">
+                        <img src="../img/works/brows/brows2.jpg" class="d-block w-100 carousel-img-servicios" alt="Remoción de cejas con hilo">
+                      </div>    
+                      <div class="carousel-item">
+                        <img src="../img/works/brows/brows3.jpg" class="d-block w-100 carousel-img-servicios" alt="Remoción y modelación de cejas con hilo">
+                      </div>
+                    </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                        </svg>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                  </div>
+                </div>
+              </div>
+                <a class="popup-close" href="#cerrar">X</a>
+            </div>
+          </div>
+        </div>
+    </section>
+  
         
     </main> 
 
