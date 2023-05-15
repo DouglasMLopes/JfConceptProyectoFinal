@@ -147,11 +147,15 @@ p {
   width: 100%;
   height: 100%;
 }
-.servicios-grid .servicios-hair p {
-  padding: 20px;
+.servicios-grid .servicios-hair h1 {
+  padding: 30px;
   align-items: center;
   justify-content: center;
-  font-size: 1.8rem;
+  font-size: 2rem;
+}
+.servicios-grid .servicios-hair span {
+  font-size: 2rem;
+  text-decoration: underline;
 }
 .servicios-grid .servicios-nails {
   grid-area: nails;
@@ -166,11 +170,15 @@ p {
   width: 100%;
   height: 100%;
 }
-.servicios-grid .servicios-nails p {
-  padding: 20px;
+.servicios-grid .servicios-nails h1 {
+  padding: 30px;
   align-items: center;
   justify-content: center;
-  font-size: 1.8rem;
+  font-size: 2rem;
+}
+.servicios-grid .servicios-nails span {
+  font-size: 2rem;
+  text-decoration: underline;
 }
 .servicios-grid .servicios-beauty {
   grid-area: beauty;
@@ -185,11 +193,15 @@ p {
   width: 100%;
   height: 100%;
 }
-.servicios-grid .servicios-beauty p {
-  padding: 20px;
+.servicios-grid .servicios-beauty h1 {
+  padding: 30px;
   align-items: center;
   justify-content: center;
-  font-size: 1.8rem;
+  font-size: 2rem;
+}
+.servicios-grid .servicios-beauty span {
+  font-size: 2rem;
+  text-decoration: underline;
 }
 .servicios-grid .servicios-cejas {
   grid-area: cejas;
@@ -204,11 +216,15 @@ p {
   width: 100%;
   height: 100%;
 }
-.servicios-grid .servicios-cejas p {
-  padding: 20px;
+.servicios-grid .servicios-cejas h1 {
+  padding: 30px;
   align-items: center;
   justify-content: center;
-  font-size: 1.8rem;
+  font-size: 2rem;
+}
+.servicios-grid .servicios-cejas span {
+  font-size: 2rem;
+  text-decoration: underline;
 }
 
 .card-config-promo-hair, .card-config-promo-cejas, .card-config-promo-nails, .card-config-promo-beauty {
